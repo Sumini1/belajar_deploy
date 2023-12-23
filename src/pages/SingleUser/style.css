@@ -1,0 +1,23 @@
+.user label {
+    color: rgb(41, 10, 70);
+    margin-bottom: 20px;
+    text-align: left;
+}
+.user .p1 {
+    color: rgb(62, 14, 110);
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.user img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.p2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: rgb(45, 10, 78);
+    font-weight: 700;
+}
+

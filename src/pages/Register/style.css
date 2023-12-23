@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: 3ffa12c;
+}
+
+.container1 {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    padding: 50px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 1);
+}
+
+.login1 {
+    width: 400px;
+}
+
+form {
+    width: 250px;
+    margin: 60px auto;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: olivedrab;
+    font-size: 20px;
+}
+
+.login h1 {
+    width: 80%;
+    padding-right: 50px;
+
+}
+
+hr {
+    border-top: 2px solid olivedrab;
+
+}
+
+.hr {
+    width: 80%;
+}
+
+.p {
+    text-align: center;
+    margin: 100px;
+    color: olivedrab;
+    font-weight: 600;
+    padding-right: 50px;
+}
+
+.right img {
+    width: 450px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+.login label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    color: olivedrab;
+}
+
+.login p {
+    color: olivedrab;
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+input {
+    width: 80%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
+    align-items: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: olivedrab;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: blueviolet;
+}
+
+@media (max-width: 880px) {
+    .container {
+        width: 100%;
+        max-width: 750px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .login {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .login {
+        width: 400px;
+        padding: 200px;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    .right img {
+        width: 80%;
+        height: 80%;
+        border-radius: 10px
+    }
+}
